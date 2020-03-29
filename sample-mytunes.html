@@ -1,0 +1,385 @@
+<html>
+	<head>
+		<title> Srikar Tunes</title>
+		
+		<style>
+			
+			
+			html,body{
+				margin:0;
+				scroll-behavior: smooth;
+				}
+			
+				
+			#header{
+				background-color:#0d0d0d;
+				font-family:helvantic;
+				height:60px;
+				color:white;
+				
+				
+				}	
+				
+			ul{
+				width:40%;
+				margin: 3px;
+				padding:12px;
+				justify-content:space-between;
+				text-align:center;
+				list-style-type:none;
+				display:flex;
+				
+				vertical-align:baseline;
+				font-family: sans-serif;
+			}
+				
+			li{
+				text-align:center;
+				text-decoration:none;
+				text-color:white;
+				padding:3px;
+				cursor: pointer;
+				vertical-align:baseline;
+				}
+					
+			newli{
+				display:flex;
+				flex-direction:column;
+				
+				
+				}		
+			
+			
+			li a:hover{
+				font-family:arial;
+				font-size:large;
+				text-decoration:none;
+				padding-bottom: 30px;
+				background-color: gray;
+				}
+				
+			li a{
+				color: white;
+				padding: 32px;
+				padding-bottom: 1px;
+				text-decoration:none;
+				
+				}	
+				
+			a:visited{
+				text-decoration:none;
+				
+				}	
+				
+			
+			a:active{
+				text-decoration:none;
+				
+				}		
+			a{
+				text-decoration:none;
+				}
+				
+				
+				
+			#guitar{
+				background-image:url(1-1.jpg) ;
+				height:calc(100vh - 60px);
+				color:white;
+				font-family: calibri;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+				
+				}	
+				
+			.innerheading1{
+				text-align:center;
+				font-size:74px;
+				
+				}	
+			.innersubheading1{
+				font-size:44px;
+				text-align:center;
+				}	
+			.innertext{
+				font-size:22px;
+				text-align:center;
+				}
+				
+			#background2{
+				background-image:url(2.jpg);
+				height:100vh;
+				background-size:cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				font-family:calibri;
+				color:white;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				
+				}	
+				
+			.button {
+				width: 100%;
+				padding-top: 16px;
+				padding-bottom:16px;
+				font-family: Roboto,sans-serif;
+				
+				
+			}
+			
+			button{
+				background-color: red;
+				border:none;
+				padding:15 32;
+				text-align:center;
+				text-decoration:none;
+				font-family:calibri;
+				font-size:22px;			
+				}	
+				
+			button:hover{
+				opacity:0.8;
+				
+				}
+				
+			#background3{
+				background-image:url(4.png);
+				background-repeat:repeat-x;
+				font-family:sans-Serif;
+				}
+			
+			.innersubheading2{
+				font-size:44px;
+				padding:7px;
+				text-align:center;
+				
+				}
+			.innertext2{
+				font-size:22px;
+				text-align:center;
+				padding:12px;
+				}	
+				
+			#background4{
+				background-image:url(6.jpg);
+				font-family:sans-Serif;
+				
+				color:white;
+				padding:200px;
+				
+				}	
+				
+			#background5{
+				background-image:url(8.jpg);
+				color:white;
+				display:flex;
+				background-repeat:no-repeat;
+				background-size:cover;
+				
+				
+				}	
+			.boxed{
+				display:flex;
+				flex-direction:column;
+				padding:100px;
+				}	
+				
+			
+				
+				
+			.top{
+				position:fixed;
+				top:650px;
+				left:1230px;
+				color:red;
+				font-size:30px;
+				
+				}
+				
+			#footer1{
+				background-color:#f2f2f2;
+				display:flex;
+				font-family:Helvantic;
+				justify-content:space-around;
+				
+				}	
+				
+				
+			.footerheading{
+				font-family:American Typewriter, serif;
+				text-align:center;
+				padding-top:10px;	
+				font-size:20px;
+				
+				
+				}	
+				
+			.footbod{
+				border-bottom:1px solid black;
+				
+				}	
+				
+			#footer2{
+				background:black;
+				height:50px;
+				color:white;
+				text-align:center;
+				align-items:center;
+				padding-top:10px;
+				}
+				
+				
+		
+		
+		</style>	
+	</head>
+
+	<body>
+		<div class="top"><a href="#topp">Go to top</a></div>
+		<a id="topp"><div id="header"></a>
+			<ul>
+				
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#ovr">Overview</a></li>
+				<li><a href="#music">Music</a></li>
+				<li><a href="#vid">Video</a></li>
+				<li><a href="#gift">Giftcards</a></li>
+			
+			
+			</ul>
+			
+			
+		
+		</div><!---header--->
+		<div id="guitar">
+			
+			<div class="innerheading1">MyTunes</div>
+			<div class="innersubheading1">Your music, movies, and TV shows take center stage.</div>
+			<div class="innertext">myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.</div>
+			
+		</div><!---guitar(bg1)--->
+		<div id="background2">
+			<div class="innerheading1"><a id="music">Music</a></div>
+			<div class="innersubheading1">1 Billion songs. Zero ads.</div>
+			<div class="innertext">Stream over 1 Billion songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and cancel anytime.</div>
+			<div class="button"><center><button style="background-color: red; color: white;">Start your free trial</button></center></div>
+			<div class="innertext">Orange Music is available in myTunes, and for iOS and Android devices.</div>
+			
+		
+		
+		</div><!---bg2--->
+			<img src="3.jpg" width=100%>
+		<div id="background3">
+			<a id="vid"></a>
+			<div class="innersubheading2">The movie and TV collection you always wished for. Granted.</div>
+			<div class="innertext2">With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</div>
+			<div class="button"><center><button style="background-color:blue ;color: black; border:1px solid black">Read More</button></center></div>
+			<img src="5.jpg" width=100%>
+			
+		</div>	<!---bg3--->
+		
+		<div id="background4">
+			
+			<div class="innersubheading1">A world of entertainment. Available wherever you are.</div><br><br>	
+			<div class="innertext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</div>
+			
+			
+		
+		
+		
+		
+		</div><!---bg4--->
+		
+		<div id="background5">
+			<a id="gift"></a>
+			<img src="9.png" >	
+			<div class="boxed">
+			<div class="innersubheading1">Gift Cards</div><br>
+			<div class="innertext">Gift Cards
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati molestias veritatis porro.<br><br>Already have an Orange MyTunes Music Gift Card?</div>		
+		
+		<div class="button"><center><button style="border:1px solid black; background-color:white ">Redeem</button></center></div>
+		</div><!---boxed--->
+	
+		</div><!---bg5--->
+		
+			
+		<div id="footer1">
+			
+			<div class="footerheading">
+				<div class="footbod">Shop &amp Learn</div>
+					<ul>
+						<div class="newli">
+						<li>music</li>
+						<li>movies</li>
+						<li>shows</li>
+						<li>apps</li>
+					</div>
+					</ul>
+			
+			
+			</div>	
+			<div class="footerheading">
+				<div class="footbod">Orange Store</div>
+					<ul>
+						<div class="newli">
+						<li>Find a Store</li>
+						<li>Today at Orange</li>
+						<li>Orange Camp</li>
+						<li>Financing</li>
+						<li>Order Status</li>
+
+					</div>
+					</ul>
+			</div>
+			<div class="footerheading">
+				<div class="footbod">Education &amp Business</div>
+					<ul>
+						<div class="newli">
+						<li>Orange & Education</li>
+						<li>Shop For College</li>
+						<li>Orange & Business</li>
+						<li>Shop For Business</li>
+						<li>Jobs</li>
+					
+					</ul>
+			</div>	
+					
+			<div class="footerheading">
+				<div class="footbod">About Orange</div>
+					<ul>
+						<div class="newli">
+						<li>Newsroom</li>
+						<li>Orange Leadership</li>
+						<li>Investors</li>
+						<li>Events</li>
+						<li>Contact Orange</li>
+					
+					</div>
+					</ul>
+			
+			</div>
+		
+		
+		</div> <!---footer1--->
+		
+		<div id="footer2">
+			Copyright © 2020 Komanduri Srikar
+		</div>
+		
+		
+		
+
+
+
+
+	
+		
+	
+	</body>
+
+</html>
